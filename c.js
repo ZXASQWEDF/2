@@ -15,3 +15,32 @@ $http({
 }).success(function(resp) {
     //  处理逻辑
 });
+$http({
+    method: 'POST',
+    url: '/test',
+    params: {
+        cycle: key,
+        emp_id: user.id
+    },
+    //  新增content-type头部属性
+    heads: {
+        'content-type': 'application/x-www-form-urlencoded'
+    }
+}).success(function(resp) {
+    //  处理逻辑
+});
+$http({
+    method: 'POST',
+    url: '/test',
+    //  以表单方式提交，将Object转换为form参数方式
+    data: $httpParamSerializer({
+        cycle: key,
+        emp_id: user.id
+    }),
+    //  新增content-type头部属性
+    heads: {
+        'content-type': 'application/x-www-form-urlencoded'
+    }
+}).success(function(resp) {
+    //  处理逻辑
+});
