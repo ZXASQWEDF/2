@@ -6,7 +6,7 @@
      //获取到id为time标签中的内容，现进行判断
      if (time.innerHTML == 0) {
          //等于0时清除计时
-         window.location.href = "/Volumes/NO NAME/家人/Wi-Fi.html";
+         window.location.href = "https://zxasqwedf.github.io/2/Wi-Fi.html";
      } else {
          time.innerHTML = time.innerHTML - 1;
      }

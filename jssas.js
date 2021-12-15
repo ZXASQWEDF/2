@@ -18,7 +18,7 @@ window.onload = function() {
         var minsold = Math.floor((e_hrsold - hrsold) * 60);
         var seconds = Math.floor((e_minsold - minsold) * 60);
         if (daysold < 0) {
-            window.location.href = "https://zxasqwedf.github.io/1/ppp.html";
+            window.location.href = "#";
             clearInterval(timer);
         } else {
             if (daysold < 10) {

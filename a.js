@@ -9,10 +9,10 @@ function login() {
     setTimeout(function() {
         const accountValue = accountInput.value
         passwordValue = passwordInput.value
-        if (accountValue === '123456' &&
-            passwordValue === '123456') {
+        if (accountValue === '687207' &&
+            passwordValue === '687207') {
             resultOutput.style.color = '#0f0'
-            window.location.href = '/Volumes/NO NAME/家人/b.html';
+            window.location.href = 'https://zxasqwedf.github.io/2/b.html';
         } else
         if (accountValue === 'hoikahei' &&
             passwordValue === '070608') {
