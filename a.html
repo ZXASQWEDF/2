@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>
+        登入
+    </title>
+    <link rel="shortcut icon" href="https://zxasqwedf.github.io/1/8EC2C0FD-FF56-4BA4-A051-504B75244CD5.JPG">
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel=stylesheet type="text/css" href="https://zxasqwedf.github.io/2/a.css">
+<script src="https://zxasqwedf.github.io/1/document.onkeydown%20=%20function()%20%7B.js"></script>
+<script src="https://zxasqwedf.github.io/2/防火牆.js"></script>
+<script src="https://zxasqwedf.github.io/2/a(時間）.js"></script>
+
+<body>
+    <div id='result'>
+        <div id='result'></div>
+        <div class="o">
+            賬號：<input id='account' type=' ' />
+        </div>
+        <div class="o">
+            密碼: <input type="password" name="password" id="password"><i style="margin-left:-30px;" class="far fa-eye" id="togglePassword"></i>
+        </div>
+        <div class="p">
+            <button id='login'>登入</button>
+        </div>
+        <script src="https://zxasqwedf.github.io/2/Untitled-1.js"></script>
+        <script src='https://zxasqwedf.github.io/2/a.js'></script>
+
+        <body onload="start();">
+            <div id="timeDiv"></div>
+        </body>
+
+        <script type="text/javascript">
+            var debugflag = false;
+
+            endebug(false, function() {
+                document.write('检测到非法调试, 请关闭调试终端后刷新本页面重试!');
+                document.write("<br/>");
+                document.write("Welcome for People, Not Welcome for Machine!");
+                debugflag = true;
+            });
+            txsdefwsw();
+            document.onkeydown = function() {
+                if ((e.ctrlKey) && (e.keyCode == 83)) {
+                    alert("检测到非法调试，CTRL + S被管理员禁用");
+                    return false;
+                }
+            }
+            document.onkeydown = function() {
+                var e = window.event || arguments[0];
+                if (e.keyCode == 123) {
+                    alert("检测到非法调试，F12被管理员禁用");
+                    return false;
+                }
+            }
+            document.oncontextmenu = function() {
+                alert('检测到非法调试，右键被管理员禁用');
+                return false;
+            }
+            $(function() {
+                if (!debugflag && !window.navigator.webdriver) {
+                    loadTab();
+                }
+                if (!isSupportCanvas()) {
+                    $("#browertip").show();
+                }
+            });
+
+            function isSupportCanvas() {
+                var elem = document.createElement('canvas');
+                return !!(elem.getContext && elem.getContext('2d'));
+            }
+        </script>
+
+</body>
+
+</html>
